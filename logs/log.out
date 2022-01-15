@@ -1,0 +1,11 @@
+2022-01-15 19:24:15 INFO  TestExcelHelper:29 - Excel file path : /Users/suhail/eclipse-workspace/BackendGenericAutomationFramwork/src/test/resources/testdata.xlsx
+  2022-01-15 19:24:16 INFO  Log:34 - Actual value of Sheet available is true and expected value is true
+  2022-01-15 19:24:17 INFO  Log:34 - Actual value of Add data to cell is true and expected value is true
+  2022-01-15 19:24:17 INFO  Log:34 - Actual value of Data added to cell hyperlink is true and expected value is true
+  2022-01-15 19:24:18 INFO  Log:34 - Actual value of Add new column is true and expected value is true
+  2022-01-15 19:24:18 INFO  Log:34 - Actual value of Get cell data is  and expected value is 
+  2022-01-15 19:24:18 ERROR Log:39 - Actual value of Get cell data with column name is Col2 but expected value is 
+  2022-01-15 19:24:18 ERROR Log:39 - Actual value of Row Number is 2 but expected value is 1
+  2022-01-15 19:24:18 ERROR Log:39 - Actual value of Column count is 27 but expected value is 1
+  2022-01-15 19:24:18 ERROR Log:39 - Actual value of Row count is 2 but expected value is 1
+  

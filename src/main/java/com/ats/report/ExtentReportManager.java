@@ -18,7 +18,7 @@ import com.aventstack.extentreports.reporter.configuration.Theme;
 public class ExtentReportManager {
 	
 	static ExtentReports extentReports;
-	final static String reportPath = "./reports/testreport.html";
+	final static String reportPath = System.getProperty("user.dir")+"/reports/testreport.html";
 	static Map<Integer, ExtentTest> extentTestMap = new HashMap<Integer, ExtentTest>();
 	
 	public synchronized static ExtentReports getReporter() {
@@ -34,15 +34,14 @@ public class ExtentReportManager {
 	}
 	
 	public static synchronized ExtentTest getTest() {
-		if(extentReports == null) {
+		if(extentReports == null)
 			startTest("testName", "desc");
-		}
-		return extentTestMap.get((int)Thread.currentThread().getId());
+		return extentTestMap.get((int)(long)(Thread.currentThread()).getId());
 	}
 	
 	public static synchronized ExtentTest startTest(String testName, String desc) {
 		ExtentTest test = getReporter().createTest(testName,desc);
-		extentTestMap.put((int) Thread.currentThread().getId(),test);
+		extentTestMap.put((int)(long) (Thread.currentThread().getId()),test);
 		return test;
 	}
 

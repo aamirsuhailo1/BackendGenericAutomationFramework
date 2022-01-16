@@ -1,7 +1,7 @@
 /**
  * 
  */
-package com.ats.utils;
+package com.ats.helper;
 
 import org.testng.Assert;
 

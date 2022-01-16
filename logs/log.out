@@ -1,11 +1,14 @@
-2022-01-15 19:24:15 INFO  TestExcelHelper:29 - Excel file path : /Users/suhail/eclipse-workspace/BackendGenericAutomationFramwork/src/test/resources/testdata.xlsx
-  2022-01-15 19:24:16 INFO  Log:34 - Actual value of Sheet available is true and expected value is true
-  2022-01-15 19:24:17 INFO  Log:34 - Actual value of Add data to cell is true and expected value is true
-  2022-01-15 19:24:17 INFO  Log:34 - Actual value of Data added to cell hyperlink is true and expected value is true
-  2022-01-15 19:24:18 INFO  Log:34 - Actual value of Add new column is true and expected value is true
-  2022-01-15 19:24:18 INFO  Log:34 - Actual value of Get cell data is  and expected value is 
-  2022-01-15 19:24:18 ERROR Log:39 - Actual value of Get cell data with column name is Col2 but expected value is 
-  2022-01-15 19:24:18 ERROR Log:39 - Actual value of Row Number is 2 but expected value is 1
-  2022-01-15 19:24:18 ERROR Log:39 - Actual value of Column count is 27 but expected value is 1
-  2022-01-15 19:24:18 ERROR Log:39 - Actual value of Row count is 2 but expected value is 1
+2022-01-16 14:25:06 INFO  ExcelUtilTests:30 - Excel file path : /Users/suhail/eclipse-workspace/BackendGenericAutomationFramwork/src/test/resources/testdata.xlsx
+  2022-01-16 14:25:07 INFO  Log:34 - Actual value of Sheet available is true and expected value is true
+  2022-01-16 14:25:08 INFO  Log:34 - Actual value of Add data to cell is true and expected value is true
+  2022-01-16 14:25:08 INFO  Log:34 - Actual value of Data added to cell hyperlink is true and expected value is true
+  2022-01-16 14:25:09 INFO  Log:34 - Actual value of Add new column is true and expected value is true
+  2022-01-16 14:25:09 INFO  Log:34 - Actual value of Get cell data is  and expected value is 
+  2022-01-16 14:25:09 ERROR Log:39 - Actual value of Get cell data with column name is Col2 but expected value is 
+  2022-01-16 14:25:09 ERROR Log:39 - Actual value of Row Number is 2 but expected value is 1
+  2022-01-16 14:25:09 ERROR Log:39 - Actual value of Column count is 33 but expected value is 1
+  2022-01-16 14:25:09 ERROR Log:39 - Actual value of Row count is 2 but expected value is 1
+  2022-01-16 14:25:09 INFO  PropertiesFileUtil:41 - Key is : country
+  2022-01-16 14:25:09 INFO  PropertiesFileUtil:42 - Value for key country is india
+  2022-01-16 14:25:09 INFO  Log:34 - Actual value of Property key env is india and expected value is india
   

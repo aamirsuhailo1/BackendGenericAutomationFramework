@@ -1,7 +1,7 @@
 /**
  * 
  */
-package com.ats.helper;
+package com.ats.utils;
 
 import java.io.FileInputStream;
 import java.io.FileOutputStream;
@@ -27,7 +27,7 @@ import org.apache.poi.xssf.usermodel.XSSFWorkbook;
  * @author suhail
  *
  */
-public class ExcelHelper {
+public class ExcelUtil {
 
 		public String path;
 		public FileInputStream fis = null;
@@ -37,7 +37,7 @@ public class ExcelHelper {
 		private XSSFRow row = null;
 		private XSSFCell cell = null;
 
-		public ExcelHelper(String path) {
+		public ExcelUtil(String path) {
 			this.path = path;
 			try {
 				fis = new FileInputStream(path);

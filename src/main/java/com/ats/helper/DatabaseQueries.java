@@ -9,6 +9,8 @@ package com.ats.helper;
  */
 public class DatabaseQueries {
 	
-	
+	public String queryForDataRetrievalFromTable(String tableName, String columnName, String columnValue) {
+		return "Select * from "+tableName+" where "+columnName+" = "+columnValue+"";
+	}
 
 }
